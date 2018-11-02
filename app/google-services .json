@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "325346528379",
+    "firebase_url": "https://testpushnotification-33818.firebaseio.com",
+    "project_id": "testpushnotification-33818",
+    "storage_bucket": "testpushnotification-33818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325346528379:android:261aabac9f0ee1dd",
+        "android_client_info": {
+          "package_name": "com.appVisor.pushExample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325346528379-97rn8q9n496chilq7mb9ub8s7hia217s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCteFCsN0C6Y1biS6JA-dTqBcRnjVHJK9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325346528379:android:cf8da9b0498b5150",
+        "android_client_info": {
+          "package_name": "com.example.bravesoftvietnam.test_push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325346528379-97rn8q9n496chilq7mb9ub8s7hia217s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCteFCsN0C6Y1biS6JA-dTqBcRnjVHJK9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325346528379:android:76e4c9c548af798f",
+        "android_client_info": {
+          "package_name": "vn.com.phamvantruongit.checkappforeground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325346528379-97rn8q9n496chilq7mb9ub8s7hia217s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCteFCsN0C6Y1biS6JA-dTqBcRnjVHJK9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
