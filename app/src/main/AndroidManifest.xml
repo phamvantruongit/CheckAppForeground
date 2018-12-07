@@ -4,6 +4,7 @@
     package="vn.com.phamvantruongit.checkappforeground">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,11 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service
@@ -26,7 +23,6 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
         <service
             android:name=".FBFireBaseInstanceIDService"
             tools:ignore="ExportedService">
@@ -37,6 +33,16 @@
         <service
             android:name=".ServiceTest"
             android:exported="false" />
+
+        <receiver android:name=".MainActivity$BroadcastReceiverManager" />
+
+        <activity android:name=".BarcodeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
